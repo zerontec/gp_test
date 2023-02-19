@@ -9,7 +9,7 @@ const initialState: Person[] = [];
 
 
 export const peopleSlice = createSlice({
-  name: "PEOPLE",
+  name: "people",
   initialState: getLocalStorage(LocalStorageTypes.PEOPLE)
     ? JSON.parse(getLocalStorage(LocalStorageTypes.PEOPLE) as string)
     : initialState,
