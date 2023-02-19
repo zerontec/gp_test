@@ -1,10 +1,20 @@
 import React from 'react';
 import { AppBar, Button, IconButton, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { CustomDialo } from '../CustomDialo';
+import { FavoriteTable } from './FavoriteTable';
+import { Favorite } from '@mui/icons-material';
+
 export interface NavbarInterface{}
 
 const Navbar: React.FC<NavbarInterface> = () => {
 	return(
+<>
+<CustomDialo>
+
+<FavoriteTable/>
+
+</CustomDialo>
 
 		<AppBar position="fixed">
         <Toolbar>
@@ -20,11 +30,15 @@ const Navbar: React.FC<NavbarInterface> = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Leoberto Zeron
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button 
+          color="inherit">Open favorites</Button>
+           <IconButton>
+            <Favorite style={{color:'red'}}/>
+           </IconButton>
         </Toolbar>
       </AppBar>
 
-
+      </>
 	)
 };
 
