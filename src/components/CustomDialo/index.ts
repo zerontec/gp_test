@@ -1,0 +1,1 @@
+export { default as CustomDialo } from './CustomDialo';
