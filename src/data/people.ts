@@ -15,7 +15,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: 10,
+    levelOfHappiness: 4,
   },
 
   {
@@ -25,7 +25,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: 10,
+    levelOfHappiness: 9,
   },
 
   {
@@ -35,7 +35,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: 10,
+    levelOfHappiness: 7,
   },
 
   {
@@ -45,7 +45,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: 10,
+    levelOfHappiness: 8,
   },
 
   {
@@ -55,7 +55,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: 10,
+    levelOfHappiness: 6,
   },
 
   {
@@ -65,7 +65,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: "10",
+    levelOfHappiness: 5,
   },
 
   {
@@ -75,7 +75,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: "10",
+    levelOfHappiness: 8,
   },
 
   {
@@ -85,7 +85,7 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: "10",
+    levelOfHappiness: 6,
   },
 
   {
@@ -95,6 +95,6 @@ export const people = [
     "category-image": "manager.pnp",
     company: "Devsign",
     "company-image": "stand.png",
-    levelOfHappiness: "10",
+    levelOfHappiness: 7,
   },
 ];
