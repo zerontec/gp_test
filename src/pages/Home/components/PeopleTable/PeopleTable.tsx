@@ -15,9 +15,10 @@ const PeopleTable:React.FC<PeopleTableInterface> = () => {
 	const [selectedPeople,setSelectedPeople] = useState<Person[]>([])
 	const pageSize=5;
 	const dispatch = useDispatch();
-const statePeople = useSelector((store:AppStore)=>store.people
 
- )
+const statePeople = useSelector((store:AppStore)=>store.people);
+
+ 
 const findPerson=(person:Person) => !!selectedPeople.find( p => p.id === person.id) 
 const filterPerson=(person:Person) => selectedPeople.filter(p => p.id != person.id) 
 
@@ -79,6 +80,16 @@ const filterPerson=(person:Person) => selectedPeople.filter(p => p.id != person.
 			field:'company',
 			
 			hederName: 'Company',
+			flex:1,
+			minWidth:150,
+			renderCell:(params: GridRenderCellParams)=>
+			<>{params.value }</>
+
+		},
+		{
+			field:'levelOfHappiness',
+			
+			hederName: 'Level of hapinnes',
 			flex:1,
 			minWidth:150,
 			renderCell:(params: GridRenderCellParams)=>
