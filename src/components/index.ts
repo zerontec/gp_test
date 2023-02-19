@@ -1,2 +1,3 @@
-export { default as Navbar } from './Navbar/Navbar';
-export * from './index';
+export * from './CustomDialo';
+export * from './Navbar/FavoriteTable';
+export * from './Navbar';
